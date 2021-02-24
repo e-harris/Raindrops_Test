@@ -9,6 +9,11 @@ def raindrop(number):
         # if the number is divisible by 3 and 5, 'PlingPlang' will be returned
         return ('PlingPlang')
 
+    # checking to see if the number is divisible by 3 and 7
+    elif number % 3 == 0 and number % 7 == 0:
+        # if the number is divisible by 3 and 7, 'PlingPlong' will be returned
+        return ('PlingPlong')
+
     # checking to see if the number is divisible by 7
     elif number % 7 == 0:
         # if the number is divisible by 7, 'Plong' will be returned
