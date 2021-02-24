@@ -40,6 +40,11 @@ class TestRainbow(unittest.TestCase):
         self.assertEqual(raindrop.raindrop(210), "PlingPlangPlong")
         self.assertEqual(raindrop.raindrop(-105), "PlingPlangPlong")
 
+    # test to see if the number provided returns it's value to see if it's not divisible by 3, 5 and 7
+    def test_notdivisible(self):
+        self.assertEqual(raindrop.raindrop(424), 424)
+        self.assertEqual(raindrop.raindrop(-11), -11)
+        self.assertEqual(raindrop.raindrop(0), 0)
 
 # allows the tests to be run in terminal without having to call upon the unittest module
 if __name__ == '__main__':
