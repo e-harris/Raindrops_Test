@@ -1,13 +1,13 @@
-#**Raindrops Test**
+# **Raindrops Test**
 
 For this test I have been tasked with creating a function that returns a value depending on the factors passed into the function.
 
 For this task, I have decided to use Python.
 
-###Requirements
+### Requirements
  - Python 3.7
 
-###Running the tests
+### Running the tests
 
 To use the tests, call `python test_rainbow.py` in your directory
 
