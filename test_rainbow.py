@@ -15,6 +15,11 @@ class TestRainbow(unittest.TestCase):
         self.assertEqual(raindrop.raindrop(25), "Plang")
         self.assertEqual(raindrop.raindrop(-50), "Plang")
 
+        # test to see if Plong returns it's correct value, "Plong" when provided with a number divisible by 7
+    def test_plong(self):
+        self.assertEqual(raindrop.raindrop(49), "Plong")
+        self.assertEqual(raindrop.raindrop(-7), "Plong")
+
 # allows the tests to be run in terminal without having to call upon the unittest module
 if __name__ == '__main__':
     unittest.main()
