@@ -4,8 +4,13 @@
 
 def raindrop(number):
 
+    # checking to see if the number is divisible by 3, 5 and 7
+    if number % 3 == 0 and number % 5 == 0 and number % 7 == 0:
+        # if the number is divisible by 3, 5 and 7, 'PlingPlangPlong' will be returned
+        return ('PlingPlangPlong')
+
     # checking to see if the number is divisible by 3 and 5
-    if number % 3 == 0 and number % 5 == 0:
+    elif number % 3 == 0 and number % 5 == 0:
         # if the number is divisible by 3 and 5, 'PlingPlang' will be returned
         return ('PlingPlang')
 
@@ -33,3 +38,4 @@ def raindrop(number):
     elif number % 3 == 0:
         # if the number is divisible by 3, 'Pling' will be returned
         return ('Pling')
+
