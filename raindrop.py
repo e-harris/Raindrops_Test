@@ -39,3 +39,6 @@ def raindrop(number):
         # if the number is divisible by 3, 'Pling' will be returned
         return ('Pling')
 
+    # if the number is not divisible by 3, 5 or 7, the number will be returned
+    else:
+         return number
