@@ -35,6 +35,10 @@ class TestRainbow(unittest.TestCase):
         self.assertEqual(raindrop.raindrop(70), "PlangPlong")
         self.assertEqual(raindrop.raindrop(-35), "PlangPlong")
 
+    # test to see if PlingPlangPlong returns it's correct value, "PlingPlangPlong" when provided with a number divisible by 3, 5 and 7
+    def test_plingplangplong(self):
+        self.assertEqual(raindrop.raindrop(210), "PlingPlangPlong")
+        self.assertEqual(raindrop.raindrop(-105), "PlingPlangPlong")
 
 
 # allows the tests to be run in terminal without having to call upon the unittest module
